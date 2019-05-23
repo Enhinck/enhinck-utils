@@ -151,7 +151,7 @@ public class CheckIdCard {
 	 * 1、15位身份证号码中，"出生年份"字段是2位，转换时需要补入"19"，表示20世纪<br>
 	 * 2、15位身份证无最后一位校验码。18位身份证中，校验码根据根据前17位生成
 	 * 
-	 * @param cardNumber
+	 * @param oldCardNumber
 	 * @return
 	 */
 	private static String contertToNewCardNumber(String oldCardNumber) {
