@@ -1,7 +1,5 @@
 package com.enhinck.swing;
 
-import com.enhinck.db.Database;
-import com.enhinck.db.JDBCUtil;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.swing.*;
@@ -155,7 +153,7 @@ public class LoginFrame extends JFrame {
 			final Database jdbcNb = new Database("com.mysql.jdbc.Driver",
 					url, "root", pwd);
 		
-			Connection con = jdbcNb.getConnection2();
+			Connection con = jdbcNb.getConnection();
 			JDBCUtil.releaseConnection(con, null, null);
 			JOptionPane.showMessageDialog(this, "\u8FDE\u63A5\u6210\u529F");
 		}catch(Exception e){

@@ -54,4 +54,12 @@ public class FileIterationUtil {
 			}
 		}
 	}
+
+	public static void main(String[] args) {
+		File root = new File("F:\\newioc");
+		File[] files = root.listFiles();
+		for (File file:files){
+			System.out.println("cd "+file.getAbsolutePath());
+		}
+	}
 }

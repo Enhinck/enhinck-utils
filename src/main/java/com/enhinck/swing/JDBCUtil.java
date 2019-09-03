@@ -1,4 +1,4 @@
-package com.enhinck.db;
+package com.enhinck.swing;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

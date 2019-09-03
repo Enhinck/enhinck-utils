@@ -96,5 +96,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.41" level="project" />
   </component>
 </module>
